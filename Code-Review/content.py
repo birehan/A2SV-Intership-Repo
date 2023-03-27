@@ -1,12 +1,11 @@
 
 count = 0
 
-def abc(x, y):
+def multiply(x, y):
     return x * y
 
-def increment_count():
-    global count
+def increment_count(count):
     count += 1
 
-increment_count()
+increment_count(count)
 print(count)
