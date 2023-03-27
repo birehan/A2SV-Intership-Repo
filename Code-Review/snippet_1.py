@@ -1,5 +1,13 @@
+import math
+
+//  Calculate the area of a circle with the given radius.
 def calculateArea(radius):
-    return 3.14 * radius ** 2
+    return math.pi * radius ** 2
+
+// Divide two numbers and return their quotient.
 
 def divide_numbers(a, b):
-    return a / b
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return "Error: division by zero"
